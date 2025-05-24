@@ -2,110 +2,94 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <table border="1">
-        <caption> Timetable</caption>
-        <tr>
-            <thead>
-    <th>no.sl</th>
-        <th>monday</th>
-            <th>tuesday</th>
-                <th>wednesday</th>
-                
-                </thead>
-              <tbody>
-                <tr>
-                <td>1</td>
-                    <td>java</td>
-                        <td>os</td>
-                            <td>ds </td>
-                 </tr>
-                 <tr>
-                    <td>2</td>
-                    <td>os</td>
-                    <td>ds</td>
-                    <td>java</td>
-                    <tr>
-                        <td>3</td>
-                        <td>English</td>
-                        <td>H/K/S</td>
-                        <td>jav Lab </td>
-                        <tr>
-                            <td>4</td>
-                            <td>JAVA</td>
-                            <td>DS</td>
-                            <td>DS LAB</td>
-                            <tr></tr>
-                            <td>5</td>
-                            <td>JAVA LAB</td>
-                            <td>OS LAB</td>
-                            <td>DS LAB</td>
-                            <
-                        </tr> 
-                            
-                        </td>
-                    </tr>
-
-                 <tbody>
-                    <td></td>
-                 </tbody>          
-                            
-            </table>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Periodic Table - First 20 Elements</title>
+    <title>Periodic Table - First 20 Elements</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        main {
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+        }
+        caption {
+            caption-side: top;
+            font-size: 1.5em;
+            margin: 10px;
+            font-weight: bold;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #e0e0e0;
+        }
+    </style>
 </head>
 <body>
 
-<h1 align="center">Periodic Table - First 20 Elements</h1>
+<header>
+    <h1>Basic Periodic Table</h1>
+</header>
 
-<table border="1" align="center" cellpadding="10">
-  <!-- Period 1 -->
-  <tr>
-    <td>H<br>1</td>
-    <td colspan="16"></td>
-    <td>He<br>2</td>
-  </tr>
+<main>
+    <table>
+        <caption>First 20 Elements of the Periodic Table</caption>
+        <thead>
+            <tr>
+                <th>Element</th>
+                <th>Symbol</th>
+                <th>Atomic Number</th>
+                <th>Atomic Mass</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Hydrogen</td><td>H</td><td>1</td><td>1.008</td></tr>
+            <tr><td>Helium</td><td>He</td><td>2</td><td>4.0026</td></tr>
+            <tr><td>Lithium</td><td>Li</td><td>3</td><td>6.94</td></tr>
+            <tr><td>Beryllium</td><td>Be</td><td>4</td><td>9.0122</td></tr>
+            <tr><td>Boron</td><td>B</td><td>5</td><td>10.81</td></tr>
+            <tr><td>Carbon</td><td>C</td><td>6</td><td>12.011</td></tr>
+            <tr><td>Nitrogen</td><td>N</td><td>7</td><td>14.007</td></tr>
+            <tr><td>Oxygen</td><td>O</td><td>8</td><td>15.999</td></tr>
+            <tr><td>Fluorine</td><td>F</td><td>9</td><td>18.998</td></tr>
+            <tr><td>Neon</td><td>Ne</td><td>10</td><td>20.180</td></tr>
+            <tr><td>Sodium</td><td>Na</td><td>11</td><td>22.990</td></tr>
+            <tr><td>Magnesium</td><td>Mg</td><td>12</td><td>24.305</td></tr>
+            <tr><td>Aluminum</td><td>Al</td><td>13</td><td>26.982</td></tr>
+            <tr><td>Silicon</td><td>Si</td><td>14</td><td>28.085</td></tr>
+            <tr><td>Phosphorus</td><td>P</td><td>15</td><td>30.974</td></tr>
+            <tr><td>Sulfur</td><td>S</td><td>16</td><td>32.06</td></tr>
+            <tr><td>Chlorine</td><td>Cl</td><td>17</td><td>35.45</td></tr>
+            <tr><td>Argon</td><td>Ar</td><td>18</td><td>39.948</td></tr>
+            <tr><td>Potassium</td><td>K</td><td>19</td><td>39.098</td></tr>
+            <tr><td>Calcium</td><td>Ca</td><td>20</td><td>40.078</td></tr>
+        </tbody>
+    </table>
+</main>
 
-  <!-- Period 2 -->
-  <tr>
-    <td>Li<br>3</td>
-    <td>Be<br>4</td>
-    <td colspan="10"></td>
-    <td>B<br>5</td>
-    <td>C<br>6</td>
-    <td>N<br>7</td>
-    <td>O<br>8</td>
-    <td>F<br>9</td>
-    <td>Ne<br>10</td>
-  </tr>
 
-  <!-- Period 3 -->
-  <tr>
-    <td>Na<br>11</td>
-    <td>Mg<br>12</td>
-    <td colspan="10"></td>
-    <td>Al<br>13</td>
-    <td>Si<br>14</td>
-    <td>P<br>15</td>
-    <td>S<br>16</td>
-    <td>Cl<br>17</td>
-    <td>Ar<br>18</td>
-  </tr>
 
-  <!-- Period 4 (first two elements only) -->
-  <tr>
-    <td>K<br>19</td>
-    <td>Ca<br>20</td>
-    <td colspan="16"></td>
-  </tr>
-</table>
 
-</body>
-</html>
+
+
+
+
+
+
+
+
