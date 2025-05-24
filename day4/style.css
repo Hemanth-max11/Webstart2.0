@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg,rgb(230, 203, 26),rgb(165, 15, 170));
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  background-color:rgb(4, 41, 115);
+  color: #c11616;
+  padding: 50px 90px;
+  border: 1px solidrgb(138, 17, 113);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(134, 180, 8, 0.726);
+  max-width: 500px;
+  text-align: center;
+}
+
+.card h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.card .title {
+  font-size: 25px;
+  font-weight: bold;
+  color:rgb(137, 24, 165);
+  margin-bottom: 5px;
+}
+
+.card p {
+  margin: 10px 0;
+}
+
+@media (max-width: 450px) {
+  .card {
+    padding: 15px 20px;
+    font-size: 14px;
+  }
+
+  .card h1 {
+    font-size: 20px;
+  }
+
+  .card .title {
+    font-size: 16px;
+  }
+}
